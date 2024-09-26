@@ -1,4 +1,67 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>My Figit toy things</title>
+  <style>
+    .centered {
+      background-image: linear-gradient(to bottom right, black, #16527a);
+      position: absolute;
+      left: 62%;
+      transform: translateX(-50%);
+      text-align: center;
+      width: 65%;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      color : white;
+        }
+    body {
+      margin: 0;
+      background-color: #151b23
+}
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #010409;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #296ec9;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #4471ab;
+  color: white;
+}
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="./penSpin.html">Pen Spinner</a></li>
+    <li><a href="./balisong.html">Balisong</a></li>
+    <li><a class="active" href="./belergi.html">Belergi</a></li>
+    <li><a href="./other.html">Other Fidget Things</a></li>
+  </ul>
+  <div class="centered">
+    <h1>Belergi</h1>
+    <p>Belergi are made from 2 weights attached to the ends of string</p>
+      <h3>Bracelet Belergi</h3>
+        <a><img src="../assets/Belergi.jpg"/></a>
+  </div>
+</body>
 </html>
