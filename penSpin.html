@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Figit toy things</title>
+  <style>
+        .centered {
+            text-align: center;
+          color : white
+        }
+    body {
+      margin: 0;
+      background-color: #151b23
+}
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #010409;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #296ec9;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #4471ab;
+  color: white;
+}
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="./index.html">Home</a></li>
+    <li><a class="active" href="./penSpin.html">Pen Spinner</a></li>
+    <li><a href="./balisong.html">Balisong</a></li>
+    <li><a href="./belergi.html">Belergi</a></li>
+    <li><a href="./other.html">Other Fidget Things</a></li>
+  </ul>
+  <div class="centered">
+    <h1>Pen Spinners</h1>
+    <p>These are modified pens that usually do not have any functioning purpose other than being a balanced weighted stick.</p>
+      <h3>Baaron DC mod</h3>
+        <a><img src="./baaron dc.jpg"/></a>
+      <h3>Ivan mod</h3>
+        <a><img src="Ivan mod.jpg"/></a>
+      <h3>Bictory mod</h3>
+        <a><img src="Bictory.jpg"/></a>
+  </div>
+</body>
+</html>
